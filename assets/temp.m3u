@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="https://s0ndip.github.io/epg.xml.gz"
 
 #EXTINF:-1 tvg-id="SONYSPORTSTEN3HD.in" tvg-logo="https://i.postimg.cc/jSTXfWg6/sony-liv.png" tvg-chno="303" group-title="Sports",LIV Hindi
-https://dai.google.com/ssai/event/g1cPcUIdSQC_3FXsrgV5iA/master.m3u8
+https://sonydaimenew.akamaized.net/hls/live/2094590/DAI25ME-V3/hdntl=exp=1721038894~acl=%2f*~id=f68bb644ca4f41e5be1b5d42b65027f0-1720608585282~data=hdntl~hmac=398d2862e628c7b20855c4016df5ae9d3b3e5426c5d130773678c196baf49d52/master_4500.m3u8
 
 #EXTINF:-1 tvg-id="SONYSPORTSTEN5HD.in" tvg-logo="https://i.postimg.cc/jSTXfWg6/sony-liv.png" tvg-chno="304" group-title="Sports",LIV English
 https://dai.google.com/ssai/event/QNEZiPzpTXucyrbpCjdZTw/master.m3u8
