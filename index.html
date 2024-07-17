@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Repository</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        a {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Files in My Repository</h1>
+    <div id="file-list"></div>
+
+    <script>
+        const fileList = document.getElementById('file-list');
+
+        fetch('https://api.github.com/repos/s0ndip/s0ndip.github.io/contents')
+            .then(response => response.json())
+            .then(files => {
+                files.forEach(file => {
+                    const link = document.createElement('a');
+                    link.href = file.html_url;
+                    link.textContent = file.name;
+                    fileList.appendChild(link);
+                });
+            })
+            .catch(error => console.error('Error fetching file list:', error));
+    </script>
+</body>
+</html>
