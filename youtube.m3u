@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="https://s0ndip.github.io/epg.xml.gz"
 
 #EXTINF:-1 tvg-id="AajTak.in" tvg-logo="https://i.postimg.cc/QMbt3Sy9/aaj-tak.png" tvg-chno="101" group-title="News",Aaj Tak
-https://feeds.intoday.in/aajtak/api/master.m3u8
+https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
 
 #EXTINF:-1 tvg-id="ABPNews.in" tvg-logo="https://i.postimg.cc/C1xKLD3v/abp-news.png" tvg-chno="102" group-title="News",ABP News
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-news/master.m3u8
