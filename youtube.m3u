@@ -76,5 +76,7 @@ https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
 #EXTINF:-1 tvg-id="REPUBLICTV.in" tvg-logo="https://i.postimg.cc/sgzGCBgL/republic-tv.png" tvg-chno="154" group-title="News",REPUBLIC TV
 https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-366023/main.m3u8
 
-#EXTINF:-1 tvg-id="WION.in" tvg-logo="https://i.postimg.cc/765fn0K5/wion.png" tvg-chno="156" group-title="News",WION
-https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
+#EXTINF:-1 tvg-id="WION.in" tvg-logo="https://i.postimg.cc/765fn0K5/wion.png" tvg-chno="156" group-title="News",WILOW
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"DTaAvYs0ne2ot/3R2nG3+A", "kid":"We2NydSkiFfvjlhlkZSWzA" } ], "type":"temporary" }
+https://cors-proxy.cooks.fyi/https://dfwlive-v1-c1p3-sponsored.s.llnwi.net/Content/HLS.cps/Live/channel(WILLHD-3291.dfw.1080)/index.m3u8
