@@ -13,3 +13,8 @@ https://nw18live.cdn.jio.com/bpk-tv/News18_India_NW18_MOB/output01/News18_India_
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"xZPC7upidCKFuZ5Nh7HISg", "kid":"qOsPFSxuQpynpT85mq3yVw" } ], "type":"temporary" }
 https://d1yws6emo43ny.cloudfront.net/CH5/masterCH5.mpd
+
+#EXTINF:-1 tvg-id="AstroCricket" group-title="Sports" group-logo="https://aqfadtv.xyz/images/sports1.png" ch-number="825" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7a/824.png/revision/latest/scale-to-width-down/1000?cb=20220416060439",Astro Cricket
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"xZPC7upidCKFuZ5Nh7HISg", "kid":"qOsPFSxuQpynpT85mq3yVw" } ], "type":"temporary" }
+https://d1yws6emo43ny.cloudfront.net/CH5/masterCH5.mpd
