@@ -31,50 +31,22 @@ http://linearjitp02-playback.astro.com.my/dash-wv/linear/5106/default_primary.mp
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 http://linearjitp-playback.astro.com.my/dash-wv/linear/2506/default_primary.mpd
 
-#EXTINF:-1 tvg-id="AstroCricket" tvg-logo="http://linear-poster.astro.com.my/prod/logo/AstroCricket_2024.png" group-title="MuZu | Sports",ASTRO CRICKET
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"zYTtE2sMxx+KuM1NT2ouTA", "kid":"A8Lgry+BWfnwzptdvIZfEA" } ], "type":"temporary" }
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-http://linearjitp-playback.astro.com.my/dash-wv/linear/2504/default_primary.mpd
-
 #EXTINF:-1 tvg-id="HBOFamily1" tvg-logo="https://linear-poster.astro.com.my/prod/logo/HBO_Family.png" group-title="MuZu | Movies",HBO FAMILY
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"fjdYjok6uSUuUFvW3aNb6w", "kid":"K5/3zBo9yf70fMV3NHLVEA" } ], "type":"temporary" }
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 http://linearjitp02-playback.astro.com.my/dash-wv/linear/5053/default_primary.mpd
 
-#EXTINF:-1 tvg-id="HBOFamily1" tvg-logo="https://linear-poster.astro.com.my/prod/logo/HBO_Family.png" group-title="MuZu | Movies",HBO FAMILY
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=363b551913124d6b80074ca295b25129&key=a6c6efcab0076d572e5732fb6451d19c
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://tglmp03.akamaized.net/out/v1/d15476c2807d4380b0cc375a7d861752/manifest.mpd
-
-#EXTINF:-1 tvg-id="415" tvg-logo="https://poster.starhubgo.com/Linear_channels2/603_1920x1080_HTV.png" group-title="MuZu | Movies",HBO SIGNATURE
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=90480f571f5d410891d7add7103c1e84&key=b64f887d2480bcaea992c2f0826449a9
-https://tglmp02.akamaized.net/out/v1/b37a81eb3585471cb9c639c78edcdefa/manifest.mpd
-
 #EXTINF:-1 tvg-id="HITS" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Hits_v1.png" group-title="MuZu | Variety",HITS
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"NssgY79TONGNMWVzcbFYFw", "kid":"H+kmhadYRNxUydrBJIAlEA" } ], "type":"temporary" }
 http://linearjitp02-playback.astro.com.my/dash-wv/linear/606/default_primary.mpd
-
-#EXTINF:-1 tvg-id="HITSNow" tvg-logo="http://linear-poster.astro.com.my/prod/logo/HITSNOW.png" group-title="MuZu | Variety",HITS NOW
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"pNSb2ozSm6KIjHMrTn2dYw", "kid":"Qwfe9qKb7AgvjJPx+Y5ZEA" } ], "type":"temporary" }
-https://linearjitp-playback.astro.com.my/dash-wv/linear/5110/default.mpd
 
 #EXTINF:-1 tvg-id="WarnerTV" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Warner-TV_v1.png" group-title="MuZu | Variety",WARNER TV
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"+DJvZox77jCeUwK1E+W99w", "kid":"YJPhJjmyTNZR7ms8E0RtEA" } ], "type":"temporary" }
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 http://linearjitp02-playback.astro.com.my/dash-wv/linear/2605/default_primary.mpd
-
-#EXTINF:-1 tvg-id="809" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_SuperSport_v1.png" group-title="MuZu | Sports",ASTRO SPORTS PLUS
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"Rj2HfDtqnFlIuQRatW1t0Q", "kid":"feQDGn4QebL/OI2hHbmnEA" } ], "type":"temporary" }
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://linearjitp-playback.astro.com.my/dash-wv/linear/5086/default_primary.mpd
 
 #EXTINF:-1 tvg-id="AstroSportsPlus" tvg-logo="http://linear-poster.astro.com.my/prod/logo/AstroSportsPlus_2024.png" group-title="MuZu | Sports",ASTRO SPORTS PLUS
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
