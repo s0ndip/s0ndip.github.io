@@ -6,15 +6,3 @@ https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679-b/ndtvindia/master.m
 #EXTINF:-1 tvg-id="News18India.in" tvg-logo="https://i.postimg.cc/sftZKHds/news18-india.png" tvg-chno="105" group-title="News",News18 India
 https://nw18live.cdn.jio.com/bpk-tv/News18_India_NW18_MOB/output01/News18_India_NW18_MOB-audio_98835_eng=98800-video=3724000.m3u8
 
-#EXTINF:-1 tvg-id="AstroCricket" group-title="Sports" group-logo="https://aqfadtv.xyz/images/sports1.png" ch-number="824" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7a/824.png/revision/latest/scale-to-width-down/1000?cb=20220416060439",Astro Cricket
-#EXTHTTP:{"Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3bXZlciI6Miwid21pZGZtdCI6ImFzY2lpIiwid21pZHR5cCI6MSwid21rZXl2ZXIiOjEsIndtaWRsZW4iOjUxMiwid21pZCI6IllUSTJOak0yTW1FdFpqWmhZaTAwWm1SakxXSXpNR0l0T0RWbE5HSm1ZVFk1TmpZMiIsIndtb3BpZCI6MzIsImV4cCI6MTczMzgzNzI1NiwiaWF0IjoxNzMzMjMzMjU2fQ.s2x43dPcLUq9ECPaR3WV1R0N03X_IBF_zgp-pirRqaE"}
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"xZPC7upidCKFuZ5Nh7HISg", "kid":"qOsPFSxuQpynpT85mq3yVw" } ], "type":"temporary" }
-https://d1yws6emo43ny.cloudfront.net/CH5/masterCH5.mpd
-
-#EXTINF:-1 tvg-id="SkySpCricket.HD.uk" tvg-logo="https://i.imgur.com/pyCr9fB.png" group-title="Sports" group-logo="https://pictr.com/images/2023/04/18/Eni92r.png",Sky Sports Cricket
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://claplivehdplay.ru/
-https://webhdrunns.onlinehdhls.ru/lb/premium65/index.m3u8|Origin=https://lewblivehdplay.ru
-
-
