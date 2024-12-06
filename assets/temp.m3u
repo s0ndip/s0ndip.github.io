@@ -134,11 +134,6 @@ http://linearjitp-playback.astro.com.my/dash-wv/linear/2506/default_primary.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://linearjitp-playback.astro.com.my/dash-wv/linear/5171/default_primary.mpd
 
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[{ "kty":"oct", "k":"WwDUNB6QswIrXlcTmuirFg", "kid":"SiZ7oJs6Q5aTZO53923WIg" }], "type":"temporary" }
-#EXTINF:-1 tvg-id="825.astro" group-title="Sports" group-logo="https://aqfadtv.xyz/images/sports1.png" ch-number="825" tvg-logo="https://aqfadtv.xyz/logos/AstroCricket2024.png",825 Astro Cricket PLus
-https://linear05-playback.sooka.my/CH2/masterCH2.mpd
-
 #EXTINF:-1 tvg-id="Eurosport.my" tvg-logo="https://i.postimg.cc/NGzCK7rW/eurosport.png" tvg-chno="363" group-title="Sports World",Eurosport 🄼
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=4db23a41babfe9afc222a58c59828310&key=d0e794e3cff564ed2c720a098eb177c7
@@ -168,6 +163,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/5060/default_primary.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=4a267ba09b3a43969364ee77f76dd622&key=5b00d4341e90b3022b5e57139ae8ab16
 https://linear05-playback.sooka.my/CH2/masterCH2.mpd
 
+#EXTINF:-1 tvg-id="AstroCricket.my" tvg-logo="https://i.postimg.cc/yY3QcgmW/astro-cricket.png" tvg-chno="368" group-title="Sports World",Astro Cricket 🄼
 #EXTHTTP:{"Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3bXZlciI6Miwid21pZGZtdCI6ImFzY2lpIiwid21pZHR5cCI6MSwid21rZXl2ZXIiOjEsIndtaWRsZW4iOjUxMiwid21pZCI6IllUSTJOak0yTW1FdFpqWmhZaTAwWm1SakxXSXpNR0l0T0RWbE5HSm1ZVFk1TmpZMiIsIndtb3BpZCI6MzIsImV4cCI6MTczMzgzNzI1NiwiaWF0IjoxNzMzMjMzMjU2fQ.s2x43dPcLUq9ECPaR3WV1R0N03X_IBF_zgp-pirRqaE"}
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=a8eb0f152c6e429ca7a53f399aadf257&key=c593c2eeea62742285b99e4d87b1c84a
@@ -176,7 +172,7 @@ https://d1yws6emo43ny.cloudfront.net/CH5/masterCH5.mpd
 #EXTINF:-1 tvg-id="CricLife.uae" tvg-logo="https://i.postimg.cc/yY3QcgmW/astro-cricket.png" tvg-chno="368" group-title="Sports World",CricLife
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=4301796d6d67374043c4a43c18dff7ea&key=96a3dc8766317aa169149a604928ebb6
-https://live2.shoq.com.pk/live/eds/Criclife2/DASH/Criclife2.mpd
+https://live5.shoq.com.pk/live/eds/Criclife2/DASH/Criclife2.mpd
 
 #EXTINF:-1 tvg-id="AnimalPlanetHDWorld.in" tvg-logo="https://i.postimg.cc/8P8vjjt1/animal-planet-hd.png" tvg-chno="401" group-title="Infotainment",Animal Planet HD
 https://s0ndip.github.io/assets/animal_planet.m3u8
