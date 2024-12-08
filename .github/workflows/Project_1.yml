@@ -1,0 +1,48 @@
+name: test
+
+on:
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  php-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Checkout the code
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Step 2: Set up Git identity
+    - name: Set up Git identity
+      run: |
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+
+    # Step 3: Install PHP and required extensions using shivammathur/setup-php
+    - name: Setup PHP
+      uses: shivammathur/setup-php@2.31.1
+      with:
+        php-version: 8.2 # Adjust PHP version if needed
+        extensions: xml, imagick, zip, curl # Add required extensions
+        ini-values: memory_limit=-1 # Optional: Customize php.ini values
+
+    # Step 4: Verify PHP installation
+    - name: Verify PHP installation
+      run: php -v
+
+    # Step 5: Run Tempest script
+    - name: Run Tempest script
+      run: |
+        php tempest.php --epg config=test.config.xml invgz
+        rm tempest_config/epg/test_with_details.xml
+        rm tempest_config/epg/test.xml
+
+    # Step 6: Pull the latest changes (if needed)
+    - name: Pull latest
+      run: git pull
+
+    # Step 7: Commit updated `epg.xml`
+    - name: Commit updated epg.xml
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Automated epg update
