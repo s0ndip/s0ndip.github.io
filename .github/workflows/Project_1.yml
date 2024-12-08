@@ -1,6 +1,10 @@
-name: test
+name: Project_1
 
 on:
+  schedule:
+    - cron: '30 00 * * *'   # Runs at 6:30 AM IST (1:00 AM UTC)
+    - cron: '30 16 * * *'   # Runs at 10:00 PM IST (4:30 PM UTC)
+    - cron: '30 20 * * *'   # Runs at 2:00 AM IST (8:30 PM UTC)
   workflow_dispatch: # Allows manual triggering
 
 jobs:
@@ -8,41 +12,67 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # Step 1: Checkout the code
-    - name: Checkout code
+    # Step 1: Checkout main repository
+    - name: Checkout main repository
       uses: actions/checkout@v3
 
-    # Step 2: Set up Git identity
+    # Step 2: Clone the private repository
+    - name: Clone private repository
+      env:
+        PRIVATE_REPO_PAT: ${{ secrets.PROJECT_1 }} # Token stored securely
+      run: |
+        git clone https://x-access-token:${PRIVATE_REPO_PAT}@github.com/s0ndip/epg-grabber.git private-repo
+        cp private-repo/tempest.php ./tempest.php
+        cp -r private-repo/tempest_config ./tempest_config
+
+    # Step 3: Verify files
+    - name: Verify `tempest.php` and `tempest_config`
+      run: |
+        ls -al
+        if [ ! -f "tempest.php" ]; then
+          echo "Error: tempest.php not found!";
+          exit 1;
+        fi
+        if [ ! -d "tempest_config" ]; then
+          echo "Error: tempest_config directory not found!";
+          exit 1;
+        fi
+
+    # Step 4: Set up Git identity
     - name: Set up Git identity
       run: |
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
 
-    # Step 3: Install PHP and required extensions using shivammathur/setup-php
+    # Step 5: Install PHP and required extensions
     - name: Setup PHP
       uses: shivammathur/setup-php@2.31.1
       with:
-        php-version: 8.2 # Adjust PHP version if needed
-        extensions: xml, imagick, zip, curl # Add required extensions
-        ini-values: memory_limit=-1 # Optional: Customize php.ini values
+        php-version: 8.3
+        extensions: xml, imagick, zip, curl
+        ini-values: memory_limit=-1
 
-    # Step 4: Verify PHP installation
+    # Step 6: Verify PHP installation
     - name: Verify PHP installation
       run: php -v
 
-    # Step 5: Run Tempest script
+    # Step 7: Run Tempest script
     - name: Run Tempest script
       run: |
         php tempest.php --epg config=test.config.xml invgz
-        rm tempest_config/epg/test_with_details.xml
-        rm tempest_config/epg/test.xml
+        [ -f tempest_config/epg/tempest_with_details.xml ] && rm tempest_config/epg/tempest_with_details.xml
+        [ -f tempest_config/epg/tempest.xml ] && rm tempest_config/epg/tempest.xml
 
-    # Step 6: Pull the latest changes (if needed)
-    - name: Pull latest
-      run: git pull
+    # Step 8: Check for changes and commit updated files
+    - name: Check for changes
+      run: |
+        git add .
+        if git diff --cached --quiet; then
+          echo "No changes to commit.";
+          exit 0;
+        fi
 
-    # Step 7: Commit updated `epg.xml`
-    - name: Commit updated epg.xml
+    - name: Commit updated files
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Automated epg update
