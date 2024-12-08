@@ -22,9 +22,9 @@ jobs:
       env:
         PRIVATE_REPO_PAT: ${{ secrets.copy_files }} # Token stored securely
       run: |
-        git clone https://x-access-token:${PRIVATE_REPO_PAT}@github.com/s0ndip/epg-grabber.git private-repo
-        cp private-repo/tempest.php ./tempest.php
-        cp -r private-repo/tempest_config ./tempest_config
+        git clone https://x-access-token:${copy_files}@github.com/s0ndip/epg-grabber.git epg-grabber
+        cp epg-grabber/tempest.php ./tempest.php
+        cp -r epg-grabber/tempest_config ./tempest_config
 
     # Step 4: Verify files
     - name: Verify `tempest.php` and `tempest_config`
