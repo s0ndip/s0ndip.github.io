@@ -1,7 +1,6 @@
 name: trial
 
 on:
-  schedule:
   workflow_dispatch: # Allows manual triggering
 
 jobs:
