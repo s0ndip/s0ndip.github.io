@@ -1,10 +1,7 @@
-name: epg_grabber
+name: trial
 
 on:
   schedule:
-    - cron: '30 00 * * *'   # Runs at 6:30 AM IST (1:00 AM UTC)
-    - cron: '30 16 * * *'   # Runs at 10:00 PM IST (4:30 PM UTC)
-    - cron: '30 20 * * *'   # Runs at 2:00 AM IST (8:30 PM UTC)
   workflow_dispatch: # Allows manual triggering
 
 jobs:
