@@ -16,10 +16,10 @@ jobs:
 
     # Step 2: Clone the private repo
     - name: Clone private repo
-      run: |
-        git clone https://x-access-token:${{ secrets.copy_files }}@github.com/<s0ndip>/<epg-grabber>.git private-repo
-        cd private-repo
-        ls -la # Verify contents
+  run: |
+    git clone https://x-access-token:${{ secrets.copy_files }}@github.com/s0ndip/epg-grabber.git private-repo
+    cd private-repo
+    ls -la
       env:
         GIT_TOKEN: ${{ secrets.copy_files }}
 
