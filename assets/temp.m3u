@@ -240,6 +240,19 @@ https://epiconvh.s.llnwi.net/gubbare/master_1080.m3u8
 #EXTINF:-1 tvg-id="DiscoveryKids.in" tvg-logo="https://i.postimg.cc/VsZZSyhf/discovery-kids.png" tvg-chno="526" group-title="Kids",Discovery Kids
 https://s0ndip.github.io/assets/discovery_kids.m3u8
 
+#EXTINF:-1 tvg-id="MNXHD.in" tvg-logo="https://i.postimg.cc/YC7mx0Gt/mnx-hd.png" tvg-chno="571" group-title="WorldWide",MNX HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=40f019b86241d23ef075633fd7f1e927&key=058dec845bd340178a388edd104a015e
+https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd
+
+#EXTINF:-1 tvg-id="MN+HD.in" tvg-logo="https://i.postimg.cc/HsXy5XLS/mn-hd.png" tvg-chno="572" group-title="WorldWide",MN+ HD#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=40f019b86241d23ef075633fd7f1e927&key=058dec845bd340178a388edd104a015e
+https://times-ott-live.akamaized.net/mnplus_wv_drm/index.mpd
+
+#EXTINF:-1 tvg-id="MoviesNowHD.in" tvg-logo="https://i.postimg.cc/KYqkF59Y/movies-now-hd.png" tvg-chno="573" group-title="WorldWide",Movies Now HD#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=40f019b86241d23ef075633fd7f1e927&key=058dec845bd340178a388edd104a015e
+https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd
+
 #EXTINF:-1 tvg-id="AXNHD.my" tvg-logo="https://i.postimg.cc/t4GgHcpk/axn.png" tvg-chno="581" group-title="WorldWide",AXN 🄼
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=c24a7811d9ab46b48b746a0e7e269210&key=c321afe1689b07d5b7e55bd025c483ce
@@ -300,24 +313,9 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/5054/default_primary.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2605/default_primary.mpd
 
-#EXTINF:-1 tvg-id="ts210" tvg-logo="https://raw.githubusercontent.com/mystery75/logo/main/MN%2B.png" group-logo="" group-title="FHD",MN+ 
+#EXTINF:-1 tvg-id="AXNMovies.my" tvg-logo="https://i.ibb.co.com/r2WTxWH/axnmov.png" tvg-chno="590" group-title="WorldWide",AXN Movies 🄼
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"BY3shFvTQBeKOI7dEEoBXg", "kid":"QPAZuGJB0j7wdWM/1/HpJw" } ], "type":"temporary" }
-https://times-ott-live.akamaized.net/mnplus_wv_drm/index.mpd
-
-#EXTINF:-1 tvg-id="ts599" tvg-logo="https://raw.githubusercontent.com/mystery75/logo/main/MNX.png" group-logo="" group-title="FHD",MNX
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"BY3shFvTQBeKOI7dEEoBXg", "kid":"QPAZuGJB0j7wdWM/1/HpJw" } ], "type":"temporary" }
-https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd
-
-#EXTINF:-1 tvg-id="ts173" tvg-logo="https://raw.githubusercontent.com/mystery75/logo/main/MoviesNow.png" group-logo="" group-title="FHD",Movies Now
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"BY3shFvTQBeKOI7dEEoBXg", "kid":"QPAZuGJB0j7wdWM/1/HpJw" } ], "type":"temporary" }
-https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co.com/r2WTxWH/axnmov.png" group-title="🇺🇸 🇪🇸", AXN MOVIES 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"1jDgTgxeP5jcOIQL4cHdTA", "kid":"+eS+CZJsJi7/orU4GuNVPQ" } ], "type":"temporary" }
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=f9e4be09926c262effa2b5381ae3553d&key=d630e04e0c5e3f98dc38840be1c1dd4c
 https://ott.zapitv.com/live/eds_c2/axn_white/dash_live_enc/axn_white.mpd
 
 #EXTINF:-1 tvg-id="Sanskar.in" tvg-logo="https://i.postimg.cc/s2vfPCcV/sanskar.png" tvg-chno="601" group-title="Devotional",Sanskar
